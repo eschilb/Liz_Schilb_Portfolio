@@ -92,13 +92,17 @@ a {
     color: $brand-color;
     text-decoration: none;
 
-    &:visited {
-        color: lighten($brand-color, 25%);
-    }
+    // &:visited {
+    //     color: lighten($brand-color, 25%);
+    // }
 
-    &:hover {
-        color: $text-color;
-    }
+    //  {
+    //     text-shadow: 1px 1px #fcb165; 
+    // }
+
+    // &:hover {
+    //     color: $text-color;
+    // }
 }
 
 
