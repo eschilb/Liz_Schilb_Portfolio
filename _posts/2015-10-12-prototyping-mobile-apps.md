@@ -5,7 +5,9 @@ date:   2015-10-12
 categories: 
 ---
 
-This past week was a group project to research, design, and prototype a mobile app for "clients." We split into teams and my team consisted or two other designers. Our client is an alumni designer from the first UI Design cohort at The Iron Yard - Austin. She presented us with our task to design a mobile app for an Austin animal shelter to connect volunteers at the shelter with foster parents that need their foster dog or cat transported to the clinic for visits or transported to an adoption event. We asked her questions to get a feel for what she would like to see in the app. 
+This past week was a group project to research, design, and prototype a mobile app for clients. 
+
+We split into teams and my team consisted or two other designers. Our client is an alumni designer from the first UI Design cohort at The Iron Yard - Austin. She presented us with our task to design a mobile app for an Austin animal shelter to connect volunteers at the shelter with foster parents that need their foster dog or cat transported to the clinic for visits or transported to an adoption event. We asked her questions to get a feel for what she would like to see in the app. 
 
 The first step was to use Trello to create cards which were essentially each task that needed to be completed with an estimate for how much time that it would take to complete. Then we created a daily sprint (what we would do for that night) based on our estimates. 
 

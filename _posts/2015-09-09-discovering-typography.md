@@ -6,7 +6,9 @@ categories:
 ---
 
 
-Starting with typography ideas this week has been challenging. My process so far has been to look at restaurant websites that I like and think about the reasons that the design works. Many times it has something to do with the typography. Then, I look through fonts to test out with my content. This seems to have been the most time consuming part of the process.
+Starting with typography ideas this week has been challenging. 
+
+My process so far has been to look at restaurant websites that I like and think about the reasons that the design works. Many times it has something to do with the typography. Then, I look through fonts to test out with my content. This seems to have been the most time consuming part of the process.
 
 
 I've used some typekit and some Google Fonts. For my website, the ones I've found the easiest to design are sans-serif fonts. I think they look clean and would fit well with the direction I envision for the redesigned website. I think some of the fonts manage to look fresh while not being generic.

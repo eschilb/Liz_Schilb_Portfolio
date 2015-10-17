@@ -93,12 +93,11 @@ a {
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: lighten($brand-color, 25%);
     }
 
     &:hover {
         color: $text-color;
-        text-decoration: underline;
     }
 }
 
@@ -198,7 +197,7 @@ pre {
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+            fill: $green-color;
         }
     }
 }

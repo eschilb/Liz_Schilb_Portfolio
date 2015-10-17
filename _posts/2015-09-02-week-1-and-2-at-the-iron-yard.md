@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Week 1 and 2 at The Iron Yard"
+title:  "First Two Weeks at The Iron Yard"
 date:   2015-09-02
 categories: 
 ---
 
 
-Hey, everybody! 
+Hello, everybody! 
 
 It's my first blog post while taking the UI Design Course at The Iron Yard - Austin. I'm sure everyone has been having unique experiences while at The Iron Yard and I'm happy to express what's been going on in my world so far! The first week has been all HTML and CSS. Our weekend project has been to build a blog website for a hipster named Lennon Miles using what we have learned so far with HTML and CSS. My favorite part has been to go back over the code this week and use SCSS for nesting, variables, and partials. Deleting any instances where repeating myself in the code has been a cathartic experience. I initially felt frustrated by the code that I wrote because it looked messy to me. Luckily, it feels more like I have a grasp on what organized and clean code looks like.
 

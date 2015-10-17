@@ -5,6 +5,8 @@ date:   2015-09-29
 categories: 
 ---
 
+TL;DR My boyfriend is going to India and we did paper protoypes in class.
+
 Before I get into today's class project, I want to begin with what is going on outside the realm of school. Well, really this all feels connected. Life isn't stopping while I take 12 weeks to learn UI Design. It just keeps going and the hard parts are just another thing that you have to overcome and learn from. Will had the opportunity to go to India with [The Miracle Foundation](http://www.miraclefoundation.org/) and teach children at an orphanage robotics skills by building and programming Lego Robots. He's changing lives by giving them insight into careers they wouldn't otherwise have access to and I have no doubt that his life will forever be changed by seeing the world through a different lense. 
 
 So he's doing fantastic things. I can barely keep it together while I write this because I'm so freaking proud of what he's doing and how much of himself he gives to other people to make this world a better place to be in. He's an inspiration to me and I'm so honored that he loves me.
