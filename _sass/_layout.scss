@@ -163,7 +163,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: $text-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -251,15 +251,16 @@
  * Posts
  */
 .post-header {
-    margin-bottom: $spacing-unit;
+    margin: 10px 0;
 }
 
 .post-title {
-    font-size: 2.75em;
+    font-size: 2.5em;
     line-height: 1.6;
     font-weight: 600;
     text-align: center;
     color: $text-color;
+    font-family: $base-font-family;
 
     @include media-query($on-laptop) {
         font-size: 2.5em;
@@ -295,11 +296,12 @@
     }
 }
 
-.post-excerpt p{
+.post-excerpt p {
     font-family: $body-copy;
 }
 
 .column6 {
+
     &:hover {
         background-color: lighten($green-color, 25%);
     }
