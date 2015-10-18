@@ -1,11 +1,20 @@
 /**
  * Site header
  */
+
+
+.header-wrapper {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
 .site-header {
     // border-top: 5px solid $grey-color-dark;
     // border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
     background-color: $green-color;
+
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -20,11 +29,10 @@
     color: $header-text-color;
     font-weight: 400;
     padding: 10px 0 10px 10px;
+}
 
-    // &,
-    // &:visited {
-    //     color: $grey-color-dark;
-    // }
+.divider {
+    color: $skin-color;
 }
 
 @include media-query($on-laptop) {
@@ -32,6 +40,7 @@
         text-align: center;
         display: block;
         float: none;
+        padding: 0;
     }
 
     .divider {
@@ -47,6 +56,7 @@
 .site-nav {
     float: right;
     line-height: 56px;
+    padding: 10px 15px;
 
     .menu-icon {
         display: none;
@@ -56,9 +66,27 @@
         color: $header-text-color;
         line-height: $base-line-height;
         padding-bottom: 5px;
+        position: relative;
 
-        &:hover {
-            border-bottom: 2px solid $skin-color;
+        &:before {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 2px;
+          bottom: 0;
+          left: 0;
+          background-color: $skin-color;
+          visibility: hidden;
+          -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+          -webkit-transition: all 0.3s ease-in-out 0s;
+          transition: all 0.3s ease-in-out 0s;
+        }
+
+        &:hover:before {
+          visibility: visible;
+          -webkit-transform: scaleX(1);
+          transform: scaleX(1);
         }
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
@@ -69,6 +97,7 @@
     @include media-query($on-laptop) {
         float: none;
         text-align: center;
+        padding: 0;
         // position: absolute;
         // top: 9px;
         // right: 30px;
@@ -117,7 +146,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    // border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
 }
 
@@ -186,9 +215,9 @@
 /**
  * Page content
  */
-.page-content {
-    padding: $spacing-unit 0;
-}
+// .page-content {
+//     padding: $spacing-unit 0;
+// }
 
 .page-heading {
     font-size: 2.75em;
@@ -238,7 +267,7 @@
 }
 
 .post-content {
-    margin-bottom: $spacing-unit;
+    // margin-bottom: $spacing-unit;
     font-family: $body-copy;
 
     h2 {
@@ -268,4 +297,10 @@
 
 .post-excerpt p{
     font-family: $body-copy;
+}
+
+.column6 {
+    &:hover {
+        background-color: lighten($green-color, 25%);
+    }
 }
