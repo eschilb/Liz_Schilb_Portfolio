@@ -7,7 +7,7 @@
 
 // Our variables
 $base-font-family: 'Soleil', 'Helvetica', Arial, sans-serif;
-$body-copy: 'Baskerville URW', serif;
+$body-copy: "brandon-grotesque", 'Helvetica', sans-serif;
 $base-font-size:   21px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.6;
@@ -24,7 +24,7 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 $skin-color: #fcb165;
 $green-color: #34d3bb;
-$header-text-color: #f9f9f9;
+$header-text-color: #454547;
 
 // Width of the content area
 $content-width:    800px;

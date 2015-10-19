@@ -1,7 +1,7 @@
 /**
  * Site header
  */
-
+// @import "compass/css3";
 
 .header-wrapper {
     width: 100%;
@@ -44,7 +44,7 @@
 }
 
 .divider {
-    color: $skin-color;
+    color: #F9F9F9;
 }
 
 @include media-query($on-laptop) {
@@ -258,6 +258,8 @@
 .page-heading {
     font-size: 2.75em;
     text-align: center;
+    font-family: $body-copy;
+    font-weight: 700;
 }
 
 .post-list {
@@ -287,16 +289,16 @@
  * Posts
  */
 .post-header {
-    margin: 10px 0;
+    margin: 40px 0;
 }
 
 .post-title {
     font-size: 2.5em;
     line-height: 1.6;
-    font-weight: 600;
+    font-weight: 700;
     text-align: center;
     color: $text-color;
-    font-family: $base-font-family;
+    font-family: $body-copy;
 
     @include media-query($on-laptop) {
         font-size: 2.5em;
@@ -306,6 +308,7 @@
 .post-content {
     // margin-bottom: $spacing-unit;
     font-family: $body-copy;
+    font-weight: 400;
 
     h2 {
         font-size: 32px;
@@ -336,9 +339,103 @@
     font-family: $body-copy;
 }
 
-.column6 {
+// .column6 {
 
-    &:hover {
-        background-color: lighten($skin-color, 15%);
+//     &:hover {
+//         background-color: lighten($skin-color, 15%);
+//     }
+// }
+
+// .row {
+//   position: relative;
+//   vertical-align: top;
+// } 
+
+// $primary: $skin-color;
+// $secondary: $header-text-color;
+
+// *, *:after, *:before {
+//   box-sizing: border-box;
+// }
+
+// .project-name {
+//   background: rgba($primary,0.7);
+//   bottom: 0;
+//   color: $secondary;
+//   font-size: 1em; 
+//   left: 0;
+//   opacity: 0;
+//   overflow: hidden; 
+//   padding: 3.75em 3em;
+//   position: absolute; 
+//   text-align: center; 
+//   top: 0;
+//   right: 0;
+//   transition: 0.6s;
+  
+//   &:hover {
+//     opacity: 1;
+//   }
+
+  
+//   &:after, &:before {
+//     border: 1px solid rgba($secondary,0.7);
+//     bottom: 1em;
+//     content: '';
+//     left: 1em;
+//     opacity: 0;
+//     position: absolute; 
+//     right: 1em;
+//     top: 1em;
+//     transform: scale(1.5); 
+//     transition: 0.6s 0.2s;
+//   }
+  
+//   &:before {
+//     border-bottom: none;     
+//     border-top: none;
+//     left: 2em;
+//     right: 2em;
+//   }
+  
+//   &:after {
+//     border-left: none;
+//     border-right: none;    
+//     bottom: 2em;
+//     top: 2em;
+//   }
+
+  
+//   &:hover:after, &:hover:before {
+//     transform: scale(1);
+//     opacity: 1;
+//   }
+// }
+
+.column6 {
+    width: 640px; height: 440px;
+    background-size: cover;
+    background-color: transparent;
+    background-blend-mode: luminosity;
+    transition: .5s background-color;
+    background-color: transparent;
+
+    p {
+        color: $background-color;
+        opacity: 0;
+        transition: opacity .5s linear;
+        padding-top: 100px;
+    }
+}
+
+.goodreads {
+    background: url(http://csssecrets.io/images/tiger.jpg);
+}
+
+.column6:hover {
+    background-color: hsl(240, 3%, 27%);
+
+    p {
+        opacity: 1;
     }
 }

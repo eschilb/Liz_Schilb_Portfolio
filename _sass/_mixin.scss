@@ -23,8 +23,8 @@ $ind-col-width: ($tot-width - (($total-num-col - 1)*$gut-width))/$total-num-col;
 }
 
 
-.column6 {
-  background-color: $skin-color;
+.column6, .project-name {
+  // background-color: $text-color;
   height: 300px;
   margin: 0 auto 60px auto;
   max-width: 600px;
@@ -38,27 +38,8 @@ $ind-col-width: ($tot-width - (($total-num-col - 1)*$gut-width))/$total-num-col;
 
  @media screen and (min-width: 600px){
   
-  .column1 {
-    @include grid(1);
-   }
 
-  .column2 {
-    @include grid(2);
-  }
-
-  .column3 {
-    @include grid(3);
-  }
-
-  .column4 {
-    @include grid(4);
-  }
-
-  .column5 {
-    @include grid(5);
-  }
-
-  .column6 {
+  .column6, .project-name {
     @include grid(6);
 
     // &:nth-child(2) {
