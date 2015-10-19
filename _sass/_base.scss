@@ -200,12 +200,29 @@ pre {
 
     > svg {
         display: inline-block;
-        width: 44px;
-        height: 44px;
+        width: 16px;
+        height: 16px;
         vertical-align: middle;
 
         path {
             fill: $green-color;
+        }
+    }
+}
+
+@media screen and (max-width: $on-palm) {
+
+    .icon {
+
+        > svg {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            vertical-align: middle;
+
+            path {
+                fill: $green-color;
+            }
         }
     }
 }
