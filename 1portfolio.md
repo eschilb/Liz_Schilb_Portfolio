@@ -5,7 +5,7 @@ permalink: /portfolio/
 ---
 
 <div class="row">
-	<a class="column6">project one</a>
+	<a class="column6"><p class="pet-app">Project one</p></a>
 	<a class="column6">project two</a>
 </div>
 
