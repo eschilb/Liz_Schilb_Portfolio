@@ -6,7 +6,7 @@ permalink: /portfolio/
 
 <div class="row">
 	<a class="column6 goodreads"><p>Goodreads Redesign</p></a>
-	<a class="column6 pet-transport"><p>Pet Transport App Prototype</p></a>
+	<a class="column6 pet-app"><p>Pet Transport App Prototype</p></a>
 </div>
 
 
