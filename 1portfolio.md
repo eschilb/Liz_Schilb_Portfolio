@@ -16,6 +16,6 @@ permalink: /portfolio/
 </div>
 
 <div class="row">
-	<a class="column6">project five</a>
-	<a class="column6">project six</a>
+  <a class="column6"><p>Project 5</p></a>
+  <a class="column6"><p>Project 6</p></a>
 </div>

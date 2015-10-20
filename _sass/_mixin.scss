@@ -29,10 +29,6 @@ $ind-col-width: ($tot-width - (($total-num-col - 1)*$gut-width))/$total-num-col;
   max-width: 600px;
   text-align: center;
   @include grid(12);
-
-  // &:first-child {
-  //   margin-top: 0;
-  // }
 }
 
  @media screen and (min-width: 600px){
@@ -40,10 +36,6 @@ $ind-col-width: ($tot-width - (($total-num-col - 1)*$gut-width))/$total-num-col;
 
   .column6, .project-name {
     @include grid(6);
-
-    // &:nth-child(2) {
-    //  margin-top: 0;
-    // }
   }
   
 }
