@@ -33,7 +33,7 @@
 }
 
 .site-title {
-    color: $header-text-color;
+    color: $background-color;
     float: left;
     font-family: $body-copy;
     font-size: 2em;
@@ -92,7 +92,7 @@
     }
 
     .page-link {
-        color: $header-text-color;
+        color: $background-color;
         line-height: $base-line-height;
         padding-bottom: 5px;
         position: relative;

@@ -24,9 +24,9 @@ $ind-col-width: ($tot-width - (($total-num-col - 1)*$gut-width))/$total-num-col;
 
 
 .column6, .project-name {
-  height: 300px;
+  height: 350px;
   margin: 0 auto 60px auto;
-  max-width: 600px;
+  width: 350px;
   text-align: center;
   @include grid(12);
 }
