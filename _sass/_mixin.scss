@@ -1,6 +1,6 @@
 /*grid mixin*/
 
-$tot-width: 100%;
+$tot-width: 350px;
 $total-num-col: 12;
 $gut-width: 10%;
 $ind-col-width: ($tot-width - (($total-num-col - 1)*$gut-width))/$total-num-col;
