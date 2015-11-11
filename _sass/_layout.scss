@@ -297,16 +297,16 @@
 }
 
 /*Portfolio page images*/
-.pet-app {
-    background: url('/Liz_Schilb_Portfolio/images/pet-app.png');
-    background-size: cover;
+.popover {
+    background: url('/Liz_Schilb_Portfolio/images/popover-logo-bl.svg') 0 75% no-repeat;
+    
 }
 /*Hover states for portfolio page*/
 .column6 {
-    background-size: cover;
-    background-color: transparent;
-    background-blend-mode: luminosity;
-    transition: .5s background-color;
+    background-size: contain;
+    background-color: #3A3A3C;
+    transition: background 3s linear;
+
 
     p {
         background-color: rgba(83, 206, 206,.9);
@@ -318,13 +318,13 @@
         padding: 20px 0;
         transition: opacity .5s linear;
         width: 100%;
-        
-
     }
 }
 
 .column6:hover {
     background-color: hsl(240, 3%, 27%);
+    background-blend-mode: luminosity;
+
 
     p {
         opacity: 1;

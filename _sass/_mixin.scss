@@ -35,7 +35,7 @@ $ind-col-width: ($tot-width - (($total-num-col - 1)*$gut-width))/$total-num-col;
   
 
   .column6, .project-name {
-    @include grid(6);
+
   }
   
 }
