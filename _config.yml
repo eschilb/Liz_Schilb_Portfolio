@@ -2,8 +2,8 @@
 title: Liz Schilb
 email: eschilb@gmail.com
 description: > # Portfolio Website for Liz Schilb - UI Designer
-baseurl: "/Liz_Schilb_Portfolio" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.lizschilb.com" # the base hostname & protocol for your site
 twitter_username: eschh
 github_username:  eschilb
 
