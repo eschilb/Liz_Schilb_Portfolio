@@ -1,0 +1,31 @@
+/*ABOUT ME*/
+
+/*about me picture*/
+
+.images-about {
+    background: url('/images/liz.jpg') 0 0 no-repeat;
+    background-size: cover;
+    display: block;
+    margin: 0 auto;
+    padding: 50%;
+    border-radius: 50%;
+}
+
+@media screen and (min-width: $on-palm) {
+  .images-wrapper {
+    max-width: 538px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: $on-laptop) {
+  .images-wrapper {
+    margin: 0;
+
+    .images-about {
+      float: left;
+      margin: 0 30px 0 0;
+      padding: 25%;
+    }
+  }
+}
