@@ -2,7 +2,7 @@
 
 $tot-width: 100%;
 $total-num-col: 12;
-$gut-width: 8%;
+$gut-width: 10%;
 $ind-col-width: ($tot-width - (($total-num-col - 1)*$gut-width))/$total-num-col;
 
 @mixin grid($col-num) {
@@ -24,20 +24,18 @@ $ind-col-width: ($tot-width - (($total-num-col - 1)*$gut-width))/$total-num-col;
 }
 
 
-.column6, .project-name {
+.column6 {
     @include grid(12);
-  height: 500px;
   margin: 0 auto 60px auto;
-  max-width: 100%;
   text-align: center;
 
 }
 
- @media screen and (min-width: 600px){
+ @media screen and ($on-laptop){
   
 
-  // .column6, .project-name {
-  //   @include grid(6);
-  // }
+  .column6 {
+    @include grid(6);
+  }
   
 }

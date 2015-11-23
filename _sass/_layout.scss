@@ -264,8 +264,11 @@
 }
 
 .post-content {
-    font-family: $body-copy;
     font-weight: 400;
+
+    p {
+        font-family: $body-copy;
+    }
 
     h2 {
         font-size: 32px;
@@ -296,38 +299,38 @@
     font-family: $body-copy;
 }
 
-/*Portfolio page images*/
-.popover {
-    background: url('/images/popover-logo-bl.svg') 0 50% no-repeat;    
-}
+
 
 /*Hover states for portfolio page*/
+
 .column6 {
-    background-size: contain;
-    background-color: #3A3A3C;
-    transition: background 3s linear;
+    img{
+        transition: background .5s linear;
+    }
 
 
     p {
-        background-color: rgba(83, 206, 206,.9);
-        color: $background-color;
+        background-color: $background-color;
+        color: rgba(83, 206, 206,1);
         font-family: $body-copy;
         font-size: 2rem;
         font-weight: 700;
-        opacity: 0;
         padding: 20px 0;
-        transition: opacity .5s linear;
-        width: 100%;
+        transition: background-color .3s linear;
     }
 }
 
 .column6:hover {
-    background-color: hsl(240, 3%, 27%);
-    background-blend-mode: luminosity;
 
+    img {
+        background-blend-mode: luminosity;
+        background-color: rgba(83, 206, 206,1);
+    }
 
     p {
-        opacity: 1;
+        background-color: rgba(83, 206, 206,1);
+        color: white;
+        
     }
 }
 
