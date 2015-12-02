@@ -1,0 +1,92 @@
+/*Projects*/
+
+/**/
+.post-header { 
+  p {  
+    margin: 0 auto;
+    padding-bottom: 5px;
+    text-align: center;
+
+    a {
+
+      border-bottom: 3px solid $background-color;
+      color: #53CECE;
+    
+      &:hover {
+        
+        border-bottom: 3px solid #53CECE;
+      }
+    }
+  }
+}
+
+.content-wrapper {
+  div {
+
+    h3{
+      font-family: $body-copy;
+      font-size: 2rem;
+      margin-bottom: 30px;
+    }
+
+    h4 {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-family: $body-copy;
+      margin-bottom: 60px;
+    }
+
+    .popover-survey, .style-tile {
+      margin: 0 10px 30px 10px;
+      box-shadow: 0 0 1px;
+    }
+
+    .tools {
+      display: block;
+      box-shadow: border-box;
+      margin-bottom: 60px;
+      max-width: 700px;
+      overflow: hidden;
+
+      div {
+        background-color: #454547;
+        box-shadow: 2px 2px $background-color, 6px 6px #53CECE;
+        color: $background-color;
+        display: block;
+        float: left;
+        margin: 15px 15px 15px 0;
+        padding: 10px 20px;
+      }
+    }
+
+    img {
+      margin-bottom: 60px;
+    }
+
+    .popover-logo, .popover-icon {
+      display: block;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+  }
+
+}
+
+@media screen and (min-width: $on-palm) {
+  .content-wrapper {
+    div {
+      .popover-logo, .popover-icon {
+        width: 45%;
+        display: inline-block;
+      }
+
+     .popover-logo {
+      margin-right: 9%;
+     }
+    }
+  }
+}
+

@@ -2,7 +2,7 @@
 
 $tot-width: 100%;
 $total-num-col: 12;
-$gut-width: 10%;
+$gut-width: 5%;
 $ind-col-width: ($tot-width - (($total-num-col - 1)*$gut-width))/$total-num-col;
 
 @mixin grid($col-num) {
@@ -25,13 +25,14 @@ $ind-col-width: ($tot-width - (($total-num-col - 1)*$gut-width))/$total-num-col;
 
 
 .column6 {
-    @include grid(12);
+  display: block;
   margin: 0 auto 60px auto;
   text-align: center;
+  max-width: 400px;
 
 }
 
- @media screen and ($on-laptop){
+ @media screen and (min-width: $on-palm){
   
 
   .column6 {
