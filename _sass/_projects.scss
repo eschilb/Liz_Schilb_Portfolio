@@ -39,7 +39,8 @@
       margin-bottom: 60px;
     }
 
-    .shelter-request {
+    .shelter-images {
+      box-shadow: 0 0 1px;
       display: block;
       margin: 0 auto 60px auto;
       max-width: 300px;
@@ -95,3 +96,18 @@
   }
 }
 
+@media screen and (min-width: $on-laptop) {
+  .content-wrapper div .shelter-images {
+    width: 45%;
+    display: inline-block;
+    margin-right: 10%;
+
+    &:nth-of-type(2) {
+      margin-right: 0;
+    }
+    &:nth-of-type(4) {
+      margin-right: 0;
+    }
+  }
+
+}

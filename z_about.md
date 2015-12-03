@@ -8,11 +8,15 @@ permalink: /about/
 	<div class="images-about"></div>
 </div>
 
-<h1>Hi, I'm Liz!</h1>
+<div class="about-content">
+	<h1>Hi, I'm Liz!</h1>
 
-<p>I grew up in Aiken, SC and received my BS in Psychology from The College of Charleston in Charleston, SC. I worked for a startup in Charleston, SC as a Research Analyst but after a while I had my sights set on moving to a new city. Austin seemed like a good fit for my lifestyle and aspirations.</p>
+	<p>I'm an Austin-based UI Designer with a background in psychology and research. I'm a maker and a doer with a desire to solve problems and create great online experiences.</p>
 
-<p>I moved to Austin, TX in February of 2014 and I have fallen in love with the city. The food is amazing and I have access to amazing music festivals and music venues. The only missing piece is to find a job doing what I'm passionate about. I wanted to be proactive in that process so I've quit my day job to do the UI Design program at The Iron Yard. It's a 12 week program that's been a whirlwind so far. I can't wait to see what comes next!</p>
+	<p>I grew up in Aiken, SC and went to college in Charleston, SC. I moved to Austin, TX in 2014 with my pup, Dexter, in tow. It's been such a whirlwind experience so far. I can't get enough of the music scene and eating too many tacos for my own good.</p>
+
+	<p>Things I'm into include hiking adventures, dog cuddles and kisses, festivals, and yoga.</p>
+</div>
 
 
 

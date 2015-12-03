@@ -11,21 +11,32 @@
     border-radius: 50%;
 }
 
+.images-wrapper {
+  margin: 0 auto;
+  max-width: 300px;
+}
 @media screen and (min-width: $on-palm) {
-  .images-wrapper {
-    max-width: 538px;
-    margin: 0 auto;
-  }
+
 }
 
 @media screen and (min-width: $on-laptop) {
   .images-wrapper {
+    display: inline-block;
+    float: left;
     margin: 0;
+    overflow: hidden;
+    width: 300px;
 
     .images-about {
       float: left;
       margin: 0 30px 0 0;
       padding: 30%;
     }
+  }
+
+  .about-content {
+    display: inline-block;
+    float: right;
+    width: 50%;
   }
 }
