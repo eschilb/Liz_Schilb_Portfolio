@@ -304,6 +304,10 @@
 
 .column6 {
 
+    .project-image {
+        transition: webkit-filter .3x linear;
+    }
+
     p {
         color: rgba(83, 206, 206,1);
         font-family: $body-copy;
@@ -316,9 +320,13 @@
 
 .column6:hover {
 
+    .project-image {
+        filter: grayscale(.5);
+        -webkit-filter: grayscale(.5);
+    }
+
     p {
-        color: $text-color;
-        
+        color: $text-color;   
     }
 }
 
