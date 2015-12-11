@@ -1,6 +1,8 @@
 /**
  * Site header
  */
+
+
 // @import "compass/css3";
 
 .header-wrapper {
@@ -10,7 +12,7 @@
 }
 
 .site-header {
-    background-color: $green-color;
+    background-color: rgba(249, 249, 249, .9);
     width: 100%;
     z-index: 1;
 
@@ -33,21 +35,17 @@
 }
 
 .site-title {
-    color: $background-color;
+    color: $green-color;
     float: left;
     font-family: $body-copy;
-    font-size: 2em;
+    font-size: 3rem;
     font-weight: 700;
-    line-height: 56px;
+    line-height: 1.5;
     letter-spacing: .05em;
     margin-bottom: 0;
-    padding: 15px 0 0 10px;
+    padding: 15px 40px;
 }
-
-.divider {
-    color: $background-color;
-}
-
+ 
 @include media-query($on-laptop) {
     
     .site-header {
@@ -72,10 +70,6 @@
         text-align: center;
     }
 
-    .divider {
-        display: none;
-    }
-
     .site-nav {
         float: none;
         text-align: center;
@@ -84,15 +78,16 @@
 
 .site-nav {
     float: right;
-    line-height: 56px;
-    padding: 10px 15px 15px 15px;
+    line-height: 1.5;
+    padding: 15px 40px;
+    margin: 20px 0;
 
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $background-color;
+        color: $green-color;
         line-height: $base-line-height;
         padding-bottom: 5px;
         position: relative;
@@ -101,10 +96,10 @@
           content: "";
           position: absolute;
           width: 100%;
-          height: 2px;
+          height: 3px;
           bottom: 0;
           left: 0;
-          background-color: $background-color;
+          background-color: $green-color;
           visibility: hidden;
           -webkit-transform: scaleX(0);
           transform: scaleX(0);
@@ -170,7 +165,6 @@
 }
 
 
-
 /**
  * Site footer
  */
@@ -210,12 +204,7 @@
  * Page content
  */
 
-@media screen and (min-width: $on-laptop){
 
-    .page-heading, .post-title, .home-title {
-        padding-top: 130px;
-    }
- }
 
 .page-heading {
     font-size: 3rem;
@@ -262,6 +251,10 @@
     font-family: $body-copy;
 }
 
+.home-title {
+    text-shadow: 1px 1px $green-color;
+}
+
 .post-content {
     font-weight: 400;
 
@@ -304,6 +297,10 @@
 
 .column6 {
 
+    .project-image {
+        transition: webkit-filter .3x linear;
+    }
+
     p {
         color: rgba(83, 206, 206,1);
         font-family: $body-copy;
@@ -316,9 +313,13 @@
 
 .column6:hover {
 
+    .project-image {
+        filter: grayscale(.5);
+        -webkit-filter: grayscale(.5);
+    }
+
     p {
-        color: $text-color;
-        
+        color: $text-color;   
     }
 }
 
@@ -328,7 +329,18 @@
     margin-right: 30px;
 }
 
+@media screen and (min-width: $on-laptop){
 
+    .page-heading, .post-title, .home-title {
+        padding-top: 130px;
+    }
 
+    .images-wrapper, .about-content, .blog-wrapper {
+        padding-top: 190px;
+    }
 
-
+    .home-title {
+        font-size: 7rem;
+        text-shadow: 1px 1px $green-color, 2px 2px $green-color, 3px 3px $green-color;
+    }
+ }

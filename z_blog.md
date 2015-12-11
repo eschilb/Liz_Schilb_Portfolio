@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Blog
+title: BLOG
 permalink: /blog/
 ---
 
-<div class="home">
+<div class="blog-wrapper">
 
 
   <ul class="post-list">
