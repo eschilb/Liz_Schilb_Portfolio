@@ -7,16 +7,17 @@
 @charset "utf-8";
 
 // Our variables
-$base-font-family: 'museo-slab', serif;
-$body-copy: "brandon-grotesque", 'Helvetica', sans-serif;
-$base-font-size:   21px;
+$base-font-family: 'p22-underground',sans-serif;
+$body-copy: 'p22-underground',sans-serif;
+$memoriam: 'memoriam-headline-pro';
+$base-font-size:   1rem;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.6;
 
 $spacing-unit:     30px;
 
 $text-color:       #454547;
-$background-color: #f9f9f9;
+$background-color: #fff;
 $brand-color:      #454547;
 
 $grey-color:       #828282;
@@ -24,14 +25,14 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 $skin-color: #fcb165;
-$green-color: #33cc99;
+$green-color: #3cf;
 $header-text-color: #454547;
 
 // Width of the content area
 $content-width:    800px;
 
 $on-palm:          600px;
-$on-laptop:        815px;
+$on-laptop:        900px;
 
 
 
@@ -58,8 +59,6 @@ $on-laptop:        815px;
         "layout",
         "syntax-highlighting",
         "mixin",
-        "bourbon/bourbon",
-        "neat/neat",
         "about",
         "projects"
 ;
