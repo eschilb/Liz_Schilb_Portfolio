@@ -49,10 +49,12 @@
       margin-bottom: 90px;
       max-width: none;
       @include grid(12);
+    }
+  }
+}
+
+/*links hover state*/
 
       a:hover {
         color: #3cf;
       }
-    }
-  }
-}
