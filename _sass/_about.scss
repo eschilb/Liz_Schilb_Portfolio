@@ -13,7 +13,7 @@
   border: solid 3px #f63;
   padding: 40px;
   margin-top: 30px;
-  // max-width: 414px;
+  max-width: 420px;
   // text-align: center;
 
   p {
@@ -47,10 +47,11 @@
     .contact {
       clear: both;
       margin-bottom: 90px;
+      max-width: none;
       @include grid(12);
 
       a:hover {
-        color: #3cf
+        color: #3cf;
       }
     }
   }
