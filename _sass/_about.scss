@@ -2,40 +2,59 @@
 
 /*about me picture*/
 
-.images-about {
-    background: url('/images/liz.jpg') 0 0 no-repeat;
-    background-size: cover;
+
+
+.images-about, .about-content, .contact {
     display: block;
     margin: 0 auto;
-    padding: 50%;
-    border-radius: 50%;
 }
 
-.images-wrapper {
-  margin: 0 auto;
-  max-width: 200px;
-}
-@media screen and (min-width: $on-palm) {
+.about-content, .contact {
+  border: solid 3px #f63;
+  padding: 40px;
+  margin-top: 30px;
+  max-width: 420px;
+  // text-align: center;
 
+  p {
+    line-height: 1.7;
+    margin-top: 20px;
+  }
 }
 
 @media screen and (min-width: $on-laptop) {
-  .images-wrapper {
-    display: inline-block;
-    float: left;
-    margin: 0;
+  .about-wrapper {
+    margin: 0 auto;
+    max-width: 800px;
+    box-sizing: border-box;
     overflow: hidden;
-    width: 300px;
-
     .images-about {
       float: left;
-      margin: 0 30px 0 0;
+      margin-right:2.5%;
+      margin-top: 100px;
+      clear: both;
+      @include grid(6);
+    }
+
+    .about-content {
+      display: inline-block;
+      float: left;
+      margin-top: 100px;
+      max-height: 394px; 
+      @include grid(6);
+    }
+    
+    .contact {
+      clear: both;
+      margin-bottom: 90px;
+      max-width: none;
+      @include grid(12);
     }
   }
-
-  .about-content {
-    display: inline-block;
-    float: right;
-    width: 50%;
-  }
 }
+
+/*links hover state*/
+
+      a:hover {
+        color: #3cf;
+      }
