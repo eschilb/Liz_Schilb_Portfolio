@@ -7,18 +7,18 @@
 @charset "utf-8";
 
 // Our variables
-$base-font-family: 'p22-underground',sans-serif;
-$body-copy: 'p22-underground',sans-serif;
-$memoriam: 'memoriam-headline-pro';
-$base-font-size:   1rem;
+$base-font-family: 'Roboto Mono', sans-serif;
+$body-copy: 'Roboto Mono', sans-serif;
+$name-copy: 'Rubik Mono One', sans-serif;
+$base-font-size:   2rem;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.6;
 
 $spacing-unit:     30px;
 
-$text-color:       #454547;
+$text-color:       #000;
 $background-color: #fff;
-$brand-color:      #454547;
+$brand-color:      #000;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
